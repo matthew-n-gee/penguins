@@ -8,7 +8,7 @@ navbar:
       href: single_trait.html
     - text: "Relationships between Multiple Traits"
       href: multiple_traits.html
-         - text: "Sexual Dimorphism"
+    - text: "Sexual Dimorphism"
       href: sexual_dimorphism.html
 output_dir: "."
 output:
