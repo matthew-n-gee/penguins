@@ -1,0 +1,16 @@
+---
+title: "Single trait distribution"
+author: "Matthew"
+date: "2023-02-10"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Single trait distribution
+
+```{r}
+ggplot(data = penguins, aes(x = species, y = body_mass_g)) + geom_bar(stat = "identity") + facet_wrap(~species)
+```

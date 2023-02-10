@@ -1,0 +1,16 @@
+---
+title: "Sexual dismorphism"
+author: "Matthew"
+date: "2023-02-10"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Sexual dismorphism
+
+```{r}
+ggplot(data = penguins) + geom_violin(mapping = aes(x = sex, y = bill_depth_mm, color = sex, fill = sex)) + facet_wrap(~species)
+```
