@@ -12,6 +12,7 @@ href: multiple_traits.html
 href: sexual_dimorphism.html
 output_dir: "."
 output:
+  html_document:
   theme: cerulean
 highlight: textmate
 toc: true 
