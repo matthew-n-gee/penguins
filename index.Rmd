@@ -12,5 +12,7 @@ library(tidyverse)
 ```
 
 ![](https://www.americanhumane.org/app/uploads/2022/01/Emperor-penguin2.png)
+
 ## Data
+
 The goal of `palmerpenguins` is to provide a great dataset for data exploration & visualization, as an alternative to `iris`. This data were collected and made available by Dr. Kristen Gorman and the Palmer Station, Antarctica LTER, and were compiled by Dr. Allison Horst and colleagues.
